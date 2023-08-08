@@ -10,7 +10,7 @@
     "format": "prettier \"src/**/*.{js,jsx,ts,tsx,css,scss}\" --write",
     "compile": "tsc",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "cd .. && husky install client/.husky"
   },
   "dependencies": {
     "react": "^18.2.0",
